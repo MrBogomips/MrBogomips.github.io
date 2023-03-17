@@ -1,5 +1,8 @@
 ---
 title: Classic Guitar Warmup Routines
+excerpt: >-
+  The goal of a warmup is to gently ease your fingers and hands into playing mode
+  and prepare for the actual performance.
 date: 2020-12-30T10:34:30-02:00
 categories:
   - Blog
