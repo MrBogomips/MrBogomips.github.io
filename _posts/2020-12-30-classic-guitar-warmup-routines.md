@@ -12,7 +12,7 @@ tags:
 
 This is my personal [warmup routines cheatsheet](/assets/Classic_Guitar_Warm-up_by_Giovanni_Costagliola.pdf){:target="_blank"} that I mix with [Segovia's Scales](#andres-segovias-scales).
 
-## Benefits of Warmup Routings
+## Benefits of Warmup Routines
 
 If you're a classical guitar player, warming up before you start practicing or performing is crucial for ensuring that your hands and fingers are ready for the technical demands of the music. A good warmup routine can help prevent injury, improve your tone and technique, and make it easier to play for extended periods of time.
 
