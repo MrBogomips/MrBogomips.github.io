@@ -27,10 +27,15 @@ github_username: MrBogomips
 minimal_mistakes_skin: dark
 search: true
 
+# Head scripts
+head_scripts:
+  - /assets/js/gtag.js
+  
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 breadcrumbs: true
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
