@@ -16,4 +16,4 @@ The piece has been popular among lutenists and guitarists for centuries, and has
 
 Galilei's Saltarello is a prime example of Renaissance music, which is characterized by its use of modal harmonies, contrapuntal textures, and intricate rhythms. The piece is an important part of the lute repertoire and continues to be performed and studied by musicians today.
 
-You can download [my personal arrangement](/assets/Saltarello_Vincenzo_Galilei.pdf){:target="_blank"} of it here or listen it on [Musescore](https://musescore.com/user/34815997/scores/6529054){:target="_blank"}.
+You can download [my personal arrangement](/assets/pdfs/Saltarello_Vincenzo_Galilei.pdf){:target="_blank"} of it here or listen it on [Musescore](https://musescore.com/user/34815997/scores/6529054){:target="_blank"}.

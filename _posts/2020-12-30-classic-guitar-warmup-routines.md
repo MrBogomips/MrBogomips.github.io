@@ -13,7 +13,7 @@ tags:
 
 ## TL;DR
 
-This is my personal [warmup routines cheatsheet](/assets/Classic_Guitar_Warm-up_by_Giovanni_Costagliola.pdf){:target="_blank"} that I mix with [Segovia's Scales](#andres-segovias-scales).
+This is my personal [warmup routines cheatsheet](/assets/pdfs/Classic_Guitar_Warm-up_by_Giovanni_Costagliola.pdf){:target="_blank"} that I mix with [Segovia's Scales](#andres-segovias-scales).
 
 ## Benefits of Warmup Routines
 
