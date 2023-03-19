@@ -13,12 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MrBogomips
+title: MrBogomips' Bits and Bytes
+subtitle: A tech blog with a personal touch
+name: 
+repository: MrBogomips/MrBogomips.github.io
+url: https://mrbogomips.net/
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A blog exploring the challenges of EAP, DDD and .NET development, 
+  while gaining personal insights from a seasoned architect and IT manager.
 twitter_username: mrbogomips
 github_username: MrBogomips
 minimal_mistakes_skin: dark
@@ -27,9 +30,10 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+breadcrumbs: true
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -104,6 +108,7 @@ defaults:
       read_time: true
       comments: true
       share: true
+      show_date: true
       related: true
   # _pages
   - scope:
@@ -119,3 +124,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "mrbogomips"
