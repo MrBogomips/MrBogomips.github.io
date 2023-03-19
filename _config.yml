@@ -26,11 +26,16 @@ twitter_username: mrbogomips
 github_username: MrBogomips
 minimal_mistakes_skin: dark
 search: true
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-EK7TW9HX52"
+    anonymize_ip: false
+
 
 # Head scripts
-head_scripts:
-  - /assets/js/gtag.js
-  
+# head_scripts:
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
