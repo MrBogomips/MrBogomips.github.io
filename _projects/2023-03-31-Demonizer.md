@@ -4,13 +4,12 @@ title: "Demonizer"
 date: 2023-03-31T23:34:30-02:00
 excerpt: >-
   Demonizer is a .NET library designed to simplify the creation of console applications for demo and showcase purposes.
+comments: true
+share: true
+show_date: true
+related: true
 toc: true
 toc_sticky: true
-categories:
-  - Projects
-  - .NET
-tags:
-  - C#
 ---
 
 [![build](https://github.com/bogoware/Demonizer/actions/workflows/build.yml/badge.svg)](https://github.com/bogoware/Demonizer/actions/workflows/build.yml)
