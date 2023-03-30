@@ -29,7 +29,7 @@ Demonizer is a .NET library designed to simplify the creation of console applica
   - **Tables**: Creating tables in the console is made easy with spectre.console. You can add columns, rows, headers, and even customize borders and styles.  
   - **Interactive Prompts**: spectre.console makes it easy to prompt the user for input in the console, including support for multiple choice questions, passwords, and more.
   - **Animations and Progress Bars**: The package includes built-in support for animations and progress bars, making it easy to add some flair to your console applications.
-  - **Figuresé**: You can also create ASCII art figures and diagrams in the console with spectre.console.
+  - **Figures**: You can also create ASCII art figures and diagrams in the console with spectre.console.
   - **And much, much more**: consult the official documentation
 
 ## Getting Started
