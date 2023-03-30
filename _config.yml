@@ -49,6 +49,7 @@ timezone: Europe/Rome
 
 include:
   - _pages
+  - _projects
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -121,6 +122,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _pages
+  - scope:
+      path: "_projects"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 category_archive:
   type: liquid
@@ -128,6 +136,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+project_archive:
+  type: liquid
+  path: /projects/
 
 comments:
   provider: "disqus"
