@@ -24,13 +24,17 @@ description: >- # this means to ignore newlines until "baseurl:"
   while gaining personal insights from a seasoned architect and IT manager.
 twitter_username: mrbogomips
 github_username: MrBogomips
-minimal_mistakes_skin: air
+minimal_mistakes_skin    : "air" # "deafult", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
 analytics:
   provider: "google-gtag"
   google:
     tracking_id: "G-EK7TW9HX52"
     anonymize_ip: false
+after_footer_scripts:
+  - https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js
+  - assets/js/clipboardrouge.js
+
 
 
 # Head scripts
@@ -136,9 +140,11 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-project_archive:
-  type: liquid
-  path: /projects/
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path
 
 comments:
   provider: "disqus"

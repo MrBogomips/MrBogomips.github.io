@@ -1,7 +1,11 @@
 ---
-permalink: /projects/demonizer
+permalink: /projects/2023/demonizer
 title: "Demonizer"
 date: 2023-03-31T23:34:30-02:00
+excerpt: >-
+  Demonizer is a .NET library designed to simplify the creation of console applications for demo and showcase purposes.
+toc: true
+toc_sticky: true
 categories:
   - Projects
   - .NET
@@ -9,12 +13,12 @@ tags:
   - C#
 ---
 
-# Demonizer
-
 [![build](https://github.com/bogoware/Demonizer/actions/workflows/build.yml/badge.svg)](https://github.com/bogoware/Demonizer/actions/workflows/build.yml)
 [![publish](https://github.com/bogoware/Demonizer/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/bogoware/Demonizer/actions/workflows/publish.yml)
 
 Demonizer is a .NET library designed to simplify the creation of console applications for demo and showcase purposes. With Demonizer, you can easily create console applications that look professional and impressive, even if you are not an expert in console application programming.
+
+[<i class="fab fa-github" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Source Code](https://github.com/bogoware/Demonizer/){: .btn .btn--primary .btn--small}
 
 ## Features
 
@@ -33,9 +37,9 @@ Demonizer is a .NET library designed to simplify the creation of console applica
 To get started with Demonizer, simply create a project with few commands:
 
 ```shell
- $ dotnet new console -o MyDemoApp
- $ cd MyDemoApp
- $ dotnet add package Bogoware.Demonizer
+ dotnet new console -o MyDemoApp
+ cd MyDemoApp
+ dotnet add package Bogoware.Demonizer
 ```
 
 then implement your first demo:
@@ -132,4 +136,4 @@ If you would like to contribute to Demonizer, please fork the project and submit
 
 ## License
 
-Demonizer is licensed under the [MIT License](LICENSE).
+Demonizer is licensed under the [MIT License](https://github.com/bogoware/Demonizer/blob/main/LICENSE).
