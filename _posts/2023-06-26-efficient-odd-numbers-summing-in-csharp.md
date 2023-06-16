@@ -31,11 +31,11 @@ Before exploring the most relevant solutions, a brief section about some tricks 
 
 It's well known that when it comes to check for parity a more performant alternative to `odd % 2 == 1` (modulo operator) is the `odd & 1 == 1` (bit-and operator).
 
-In the example reproduced in this post I will not spend details comparing the two alternative. Please reference the source code for details.
+In the example reproduced in this post I will not spend details comparing the two alternatives. Please reference the benchmark result and the end of this post and reference the source code for details.
 
 ## Trick #2: Remove Branches
 
-Branches, i.e. `if/else/switch` statements, will produce cpu instructions that will limitate the super-scalarity feature.
+Branches, i.e. `if/else/switch` statements, will produce cpu instructions that will limit the super-scalarity feature.
 For this specific problem it's easily avoidable by observing that the parity check result can be used to nullify the element added to the sum in case of even numbers.
 
 In practice, the block:
@@ -58,7 +58,7 @@ sum += (num & 1) * num;
 
 ## Trick #3: Loop Unrolling
 
-Another well known tecnique when implementing a strict loop is to step by 2 or more items at each loop. This trick benefits by CPU's superscalarity that essentially allow multiple istructions to be pushed into the pipeline in parallel.
+Another well known tecnique when implementing a strict loop is to step by 2 or more items at each loop. This trick benefits by CPU's superscalarity that essentially allow multiple istructions to be pushed into the execution pipeline in parallel.
 The drawback is that particular attention must be deserved to manage tail conditions.
 
 ## Trick #4: Relaxing Runtime Checks (Unsafe)
@@ -72,7 +72,7 @@ This is a list of the relevant solutions, from the worst one to the most effcien
 
 ## Linq One-Liner: the functional one
 
-> Score: 1 (The higher is the worst)
+> Cost: 1 (The higher is the worst)
 
 I love functional style and maybe this is the most elegant solution: clear and coincise:
 
@@ -86,7 +86,7 @@ I will take the performance of this implementation as the baseline with a cost o
 
 ## `foreach` loop: the idiomatic
 
-> Score: 0.12
+> Cost: 0.12
 
 It's well knwon that the `foreach` is heavly optimized:
 
@@ -99,9 +99,12 @@ return sum;
 This solution is clear, idiomatic and very efficient.
 As C# claims, this should be the preferred way to manipulate arrays.
 
-## `Span<T>`
+## `Span<T>`: the good alternative to `unsafe` code
 
-> Score: 0.12
+> Cost: 0.12
+
+For this specific problem `Span<T>` is not the 1st choice, but it's worth to mention
+that it performs like other `unsafe` alternatives without the risks of its counterparts.
 
 ``` csharp
 int sum = 0;
@@ -109,11 +112,14 @@ Span<int> s = array;
 foreach (var e in s) sum += e * (e & 1);
 ```
 
-## The fastest
+## The fastest! (and 🏴‍☠️ one)
 
-> Score: 0.10
+> Cost: 0.10
 
-This version unrolls the loop by a factor 4 resembling the well known device used in Quake :).
+This version outperform 20% better than the idiomatic one, but as you can recognize, 
+deserve much more attention and effort.
+In fact it unrolls the loop by a factor 4 resembling the well known device used in Quake memory copy
+routine :)
 
 
 ``` csharp
