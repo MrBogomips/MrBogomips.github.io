@@ -7,6 +7,7 @@ tags:
   - C#
   - .NET
   - Performance
+show_date: true
 ---
 
 As developers, we often encounter situations where we need to perform specific operations on arrays efficiently. In this blog post, I will share my journey of creating a performance suite for C#/.NET focused on this particular problem and discuss the different approaches I explored.

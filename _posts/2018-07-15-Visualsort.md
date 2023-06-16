@@ -17,7 +17,6 @@ tags:
   - Algorithms
 ---
 
-# Visualsort
 
 Visualsort borns as a program to exploit the capabilities of [Pixel](https://github.com/faiface/pixel) gaming library (and having fun with Go).
 
