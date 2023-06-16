@@ -20,7 +20,7 @@ It's aim is to provide a visual representation of the most popular in-memory [so
 
 ## Demo 
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/VOQb-9w5WS8" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VOQb-9w5WS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Demo video on [Youtube](https://youtu.be/VOQb-9w5WS8).
 
