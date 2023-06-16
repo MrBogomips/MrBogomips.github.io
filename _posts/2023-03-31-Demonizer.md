@@ -1,5 +1,4 @@
 ---
-permalink: /projects/2023/demonizer
 title: "Demonizer"
 date: 2023-03-31T23:34:30-02:00
 excerpt: >-

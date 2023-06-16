@@ -1,5 +1,4 @@
 ---
-permalink: /projects/2018/visualsort
 title: "Visualsort"
 date: 2018-07-15
 excerpt: >-
@@ -20,7 +19,9 @@ It's aim is to provide a visual representation of the most popular in-memory [so
 
 ## Demo 
 
+<div>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VOQb-9w5WS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 Demo video on [Youtube](https://youtu.be/VOQb-9w5WS8).
 
