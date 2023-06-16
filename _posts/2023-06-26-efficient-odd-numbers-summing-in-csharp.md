@@ -160,8 +160,8 @@ Apple M1 Pro, 1 CPU, 10 logical and 10 physical cores
   [Host]     : .NET 7.0.7 (7.0.723.27404), Arm64 RyuJIT AdvSIMD
   DefaultJob : .NET 7.0.7 (7.0.723.27404), Arm64 RyuJIT AdvSIMD
 
-
 ```
+
 |                                     Method |    Categories |      Mean |    Error |   StdDev | Ratio | Rank |
 |------------------------------------------- |-------------- |----------:|---------:|---------:|------:|-----:|
 | SumOdd_BranchFree_LoopUnrolling4_Unchecked | LoopUnrolling |  81.35 ns | 0.315 ns | 0.295 ns |  0.10 |    I |
