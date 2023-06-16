@@ -9,6 +9,11 @@ show_date: true
 related: true
 toc: true
 toc_sticky: true
+categories:
+  - Projects
+  - Programming
+tags:
+  - Demo
 ---
 
 [![build](https://github.com/bogoware/Demonizer/actions/workflows/build.yml/badge.svg)](https://github.com/bogoware/Demonizer/actions/workflows/build.yml)

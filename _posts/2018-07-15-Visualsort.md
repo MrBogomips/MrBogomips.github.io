@@ -9,6 +9,12 @@ show_date: true
 related: true
 toc: true
 toc_sticky: true
+categories:
+  - Projects
+  - Programming
+tags:
+  - GoLang
+  - Algorithms
 ---
 
 # Visualsort
