@@ -8,6 +8,7 @@ categories:
   - Music
 tags:
   - Classic Guitar
+show_date: true
 ---
 
 ## TL;DR

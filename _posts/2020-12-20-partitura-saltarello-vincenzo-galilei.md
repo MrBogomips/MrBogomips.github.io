@@ -5,6 +5,7 @@ categories:
   - Music
 tags:
   - Classic Guitar
+show_date: true
 ---
 
 Saltarello is a lively, fast-paced Italian dance that originated in the 14th century. [Vincenzo Galilei](https://it.wikipedia.org/wiki/Vincenzo_Galilei) was an Italian composer and lutenist who lived in the late 16th century and is credited with popularizing the saltarello in his music.

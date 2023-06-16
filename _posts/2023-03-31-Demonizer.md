@@ -14,6 +14,7 @@ categories:
   - Programming
 tags:
   - Demo
+  - C#
 ---
 
 [![build](https://github.com/bogoware/Demonizer/actions/workflows/build.yml/badge.svg)](https://github.com/bogoware/Demonizer/actions/workflows/build.yml)

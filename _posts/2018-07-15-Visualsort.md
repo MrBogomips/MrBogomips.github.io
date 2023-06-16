@@ -13,7 +13,7 @@ categories:
   - Projects
   - Programming
 tags:
-  - GoLang
+  - Go
   - Algorithms
 ---
 

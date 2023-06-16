@@ -2,7 +2,7 @@
 title: "Efficient Odd Number Summing in C#/.NET"
 date: 2023-06-16
 categories:
-  - Pogramming
+  - Programming
 tags:
   - C#
   - .NET
