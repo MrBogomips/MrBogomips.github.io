@@ -3,7 +3,7 @@ permalink: /projects/2018/visualsort
 title: "Visualsort"
 date: 2018-07-15
 excerpt: >-
-  A visualizer of inmemory sorting algorithms.
+  A visualizer of in-memory sorting algorithms.
 comments: true
 share: true
 show_date: true
