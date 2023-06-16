@@ -5,7 +5,6 @@ excerpt: >-
   and prepare for the actual performance.
 date: 2020-12-30T10:34:30-02:00
 categories:
-  - Blog
   - Music
 tags:
   - Classic Guitar
