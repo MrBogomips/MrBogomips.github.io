@@ -18,7 +18,7 @@ I've choose the issue of summing up all the odd numbers in a given array as refe
 
 I started by experimenting with various solutions, ranging from concise and idiomatic one-liners to low-level implementations inspired by languages like C and C++. Through this process, I aimed to strike a balance between readability and performance.
 
-As expected, the the solution using the `foreach` loop provided the best compromise, delivering both idiomatic code and excellent performance.
+As expected, the solution using the `foreach` loop provided the best compromise, delivering both idiomatic code and excellent performance.
 
 The `foreach` loop in C# allows for elegant and readable code, while still benefiting from the underlying optimizations of the .NET runtime.
 
@@ -32,11 +32,11 @@ Before exploring the most relevant solutions, a brief section about some tricks 
 
 It's well known that when it comes to check for parity a more performant alternative to `odd % 2 == 1` (modulo operator) is the `odd & 1 == 1` (bit-and operator).
 
-In the example reproduced in this post I will not spend details comparing the two alternatives. Please reference the benchmark result and the end of this post and reference the source code for details.
+In the example reproduced in this post I will not spend details comparing the two alternatives. Please reference the benchmark results and the end of this post and the source code for more details.
 
-## Trick #2: Remove Branches
+## Trick #2: Avoid Branches
 
-Branches, i.e. `if/else/switch` statements, will produce cpu instructions that will limit the super-scalarity feature.
+Branches, i.e. `if/else/switch` statements, will produce cpu instructions (`noop`s in particular) that will limit the super-scalarity feature.
 For this specific problem it's easily avoidable by observing that the parity check result can be used to nullify the element added to the sum in case of even numbers.
 
 In practice, the block:
@@ -151,6 +151,8 @@ return sum;
 Neither to mention that this effort could not be so valuable provided the `foreach` alternative.
 
 # Benchmark Data
+
+These data refers to [this code](https://github.com/MrBogomips/DotnetPerfLab/blob/main/Tricks/SummingOddNumbers.cs).
 
 
 ``` ini
