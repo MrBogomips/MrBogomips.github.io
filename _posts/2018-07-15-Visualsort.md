@@ -15,12 +15,14 @@ categories:
 tags:
   - Go
   - Algorithms
+  - Sorting
 ---
 
-
-Visualsort borns as a program to exploit the capabilities of [Pixel](https://github.com/faiface/pixel) gaming library (and having fun with Go).
+Visualsort borns as a program to exploit the capabilities of [Pixel](https://github.com/faiface/pixel) gaming library (and having fun with [Go](https://go.dev/)).
 
 It's aim is to provide a visual representation of the most popular in-memory [sorting algorithms (Wikipedia)](https://en.wikipedia.org/wiki/Sorting_algorithm).
+
+[<i class="fab fa-github" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Source Code](https://github.com/MrBogomips/visualsort){: .btn .btn--primary .btn--small}
 
 ## Demo 
 

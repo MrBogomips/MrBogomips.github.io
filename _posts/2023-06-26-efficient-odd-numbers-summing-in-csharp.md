@@ -1,5 +1,5 @@
 ---
-title: "Efficient Odd Number Summing in C#/.NET"
+title: "Efficient Odd Number Summing in C#"
 date: 2023-06-16
 categories:
   - Programming
