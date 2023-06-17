@@ -13,7 +13,6 @@ categories:
   - Projects
   - Programming
 tags:
-  - Demo
   - C#
 ---
 
